@@ -1,0 +1,148 @@
+/* Basic styles */
+body {
+    background-image: url('flower.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background:rgb(216, 112, 169);
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color:black;
+    margin-bottom: 20px;
+}
+
+span{
+    color:wheat;
+}
+
+.detel p{
+    color: rgb(220, 245, 223);
+    line-height: 30px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.detel a{
+    background: rgb(44, 2, 2);
+    padding: 20px 28px;
+    text-decoration:double;
+    font-weight:bolder;
+    color: azure;
+    display:inline-block;
+    margin:50px 0;
+    border-radius: 10px;
+}
+
+.images{
+    width: 50%;
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+}.container {
+    position: relative;
+    width: 2000px;
+    height: 100px;
+    border: 1px solid #ccc;
+  }
+
+  .image {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+
+.images img{
+    height: 100%;
+    position: fixed;
+    left:30%;
+    bottom: 0%;
+    transform:translateX(-50%);
+    transition:bottom is,right 1s;
+}
+.images:hover.sumsung{
+    bottom: 40px;
+}
+
+
+section {
+  padding: 40px;
+}
+
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin:auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight:bold;
+}
+
+nav ul li a:hover{
+    color:rgb(170, 255, 0);
+}
+
+
+
+
+
+
+
+
+
