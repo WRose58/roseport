@@ -1,0 +1,33 @@
+/* Facts */
+male(Elias).
+male(James).
+male(gorge).
+male(eric).
+
+female(sasha).
+female(rose).
+female(milka).
+
+parent(elias, james).
+parent(elias, george).
+parent(sasha, james).
+parent(sasha, george).
+parent(james, eric).
+parent(rose, eric).
+parent(eric, milka).
+
+/* Rules */
+father(X, Y) :- male(X), parent(X, Y).
+mother(X, Y) :- female(X), parent(X, Y).
+
+grandparent(X, Z) :- parent(X, Y), parent(Y, Z).
+
+sibling(X, Y) :- parent(Z, X), parent(Z, Y), X \= Y.
+
+/* Queries */
+/*
+?- father(john, bob).     % Is John Bob's father?
+?- mother(jane, jack).    % Is Jane Jack's mother?
+?- grandparent(john, tom).% Is John Tom's grandparent?
+?- sibling(bob, jack).    % Are Bob and Jack siblings?
+*/
