@@ -59,21 +59,21 @@ span{
 
 .images{
     width :45%;
-    height: 80%;
+    height: 50%;
     position: absolute;
     bottom: 0;
     right: 100%;
 }.container {
     position: relative;
-    width: 3000px;
-    height: 90px;
+    width: 2000px;
+    height: 70px;
     border: 1px solid #ccc;
   }
 
   .image {
     position: absolute;
     top: 10%;
-    left: 40%;
+    left: 30%;
     transform: translate(-20%, -50%);
     transition: bottom 1s, left 1s;
   }
@@ -81,7 +81,7 @@ span{
 
 
 .images img{
-    height: 70%;
+    height: 50%;
     position: fixed;
     left:40%;
     bottom: 0%;
