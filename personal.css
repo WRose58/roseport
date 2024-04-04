@@ -58,14 +58,14 @@ span{
 }
 
 .images{
-    width: 30%;
-    height: 15%;
+    width :50%;
+    height: 20%;
     position: absolute;
     bottom: 0;
     right: 80%;
 }.container {
     position: relative;
-    width: 1000px;
+    width: 3000px;
     height: 90px;
     border: 1px solid #ccc;
   }
@@ -80,15 +80,15 @@ span{
 
 
 .images img{
-    height: 100%;
-    position: static;
+    height: 90%;
+    position: fixed;
     left:30%;
     bottom: 0%;
     transform:translateX(-50%);
     transition:bottom is,right 1s;
 }
 .images:hover.sumsung{
-    bottom: 40px;
+    bottom: 30px;
 }
 
 
