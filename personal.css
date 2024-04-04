@@ -58,30 +58,30 @@ span{
 }
 
 .images{
-    width: 50%;
-    height: 20%;
+    width: 30%;
+    height: 15%;
     position: absolute;
     bottom: 0;
-    right: 100%;
+    right: 80%;
 }.container {
     position: relative;
-    width: 2000px;
-    height: 100px;
+    width: 1000px;
+    height: 90px;
     border: 1px solid #ccc;
   }
 
   .image {
     position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 40%;
+    transform: translate(-30%, -50%);
   }
 
 
 
 .images img{
     height: 100%;
-    position: fixed;
+    position: static;
     left:30%;
     bottom: 0%;
     transform:translateX(-50%);
