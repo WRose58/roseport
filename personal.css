@@ -58,7 +58,7 @@ span{
 }
 
 .images{
-    width :70%;
+    width :45%;
     height: 100%;
     position: absolute;
     bottom: 0;
@@ -66,20 +66,20 @@ span{
     
 }.container {
     position: relative;
-    width: 5000px;
+    width: 2000px;
     height: 100px;
-    border: 4px solid #ccc;
+    border: 1px solid #ccc;
   }
 
   .image {
     height:100%;
     position: absolute;
-    top: 90%;
-    left: 80%;
-    transform: translate(-60%, -50%);
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
     transition: bottom 1s, left 1s;
     float:left;
-    margin-left:70px;
+    margin-left:10px;
   }
 
 
@@ -89,11 +89,11 @@ span{
     position: fixed;
     left:50%;
     bottom: 0%;
-    transform:translateX(-80%);
+    transform:translateX(-50%);
     transition:bottom 1s,right 1s;
 }
 .images:hover.image{
-    bottom: 50px;
+    bottom: 10px;
 }
 
 
