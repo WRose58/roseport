@@ -62,7 +62,8 @@ span{
     height: 100%;
     position: absolute;
     bottom: 0;
-    right: 100%;
+    left: 100%;
+    
 }.container {
     position: relative;
     width: 2000px;
@@ -77,7 +78,7 @@ span{
     left: 50%;
     transform: translate(-50%, -50%);
     transition: bottom 1s, left 1s;
-    float:right;
+    float:left;
     margin-left:10px;
   }
 
